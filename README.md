@@ -9,14 +9,14 @@ Site description:
 // It look preatty basic and unmentainned
 
 Test plan:
-//See the document dedicated to it. It is a work in progress.
+//See the document dedicated to it. 
 
 Test sripts:
 //There are test scripts for the following scenarious:
 **valid user registration
 **invalid user registration
 **valid user Vendor registration
-** end to end flow - place an order as a Guest user
+**end to end flow - place an order as a Guest user
 
 !! You can see the scripts in Wordpress_EcommerceSite_Tested_With_Selenium_Python folder
 
