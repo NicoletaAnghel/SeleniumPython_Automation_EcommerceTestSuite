@@ -21,7 +21,7 @@ class TestEndToEndCheckoutGuestUser:
     @pytest.mark.tcid33
     def test_end_to_end_checkout_guest_user(self):
 
-        disable_prompt = DisablePrompt(self.driver)
+        DisablePrompt()
         self.driver.maximize_window()
 
         my_shop = HomePageShop(self.driver)
