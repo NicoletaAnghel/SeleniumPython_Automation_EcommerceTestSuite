@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Internal CSS for styling */
+        .header {
+            text-align: center;
+            background-color: #7ebffc;
+            padding: 20px;
+        }
+        .header-color{
+            color: #0c4070;
+        }
+        .header2{
+            text-align: right;
+            background-color: #7ebffc;
+            padding: 10px;
+        }
+        .main-content {
+            padding: 20px;
+            font-size: 18px;
+        }
+
+        .highlight {
+            color: #ff6347;
+            font-weight: bold;
+        }
+                table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .footer {
+            text-align: center;
+            background-color: #333;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+
+    <header>
+        <title>Test plan of an ecommerce website made with Wordpress</title>
+    </header>
+    <body>
+    <h1 class ='header header-color'>Test plan of an ecommerce website made with WordPress
+    </h1>
+    <h2 class = 'header2 header-color'>Nicoleta Anghel</h2>
+<table class = 'main-content'>
+        <thead>
+            <tr>
+                <th>TC No.</th>
+                <th>TC Title</th>
+                <th>Step No.</th>
+                <th>Step Description</th>
+                <th>Expected</th>
+                <th>TC Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">TC-12</td>
+                <td rowspan="3">Test Login Invalid Uuser</td>
+                <td>1</td>
+                <td>Navigate to My account page while being signed out</td>
+                <td>User navigated to login page</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Enter username and password</td>
+                <td>Entered successfully</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Click login button</td>
+                <td>Message error is displayed</td>
+                <td>Pass</td>
+
+            </tr>
+
+            <tr>
+                <td rowspan="5">TC-13</td>
+                <td rowspan="5">Test Register Valid New User</td>
+                <td>1</td>
+                <td>Go to my account page while being signed out</td>
+                <td>Page displayed</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Check radio box for customer registration</td>
+                <td>radio box checked</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Enter random email and password</td>
+                <td>registration form completed with needed data</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Click on registration button</td>
+                <td>Registration button clicked</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Check the fact that the user page is displayed by clicking on logout button that is found there</td>
+                <td>Logout button found and clicked</td>
+                <td>Pass</td>
+            </tr>
+
+           <tr>
+                <td rowspan="6">TC-13_v</td>
+                <td rowspan="6">Registration of a Vendor role user</td>
+                <td>1</td>
+                <td>Go yo my account page while being signed out</td>
+                <td>Page displayed</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Check the radio box for vendor registration</td>
+                <td>radio box checked, new fields from the vendor form registration are displayed</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Enter random data for all required fields: email, pass, fname, lname, shop name, shop url, phone no</td>
+                <td>Information is successfully completed</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Click on registration button</td>
+                <td>Button is clicked</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Check the vendor is logged in</td>
+                <td>'Welcome to the Marketplace!' message is displayed</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Check the vendor is register by checking the DB, by email</td>
+                <td>User can be found in DB</td>
+                <td>Pass</td>
+            </tr>
+
+          <tr>
+                <td rowspan="3">TC-013_inv</td>
+                <td rowspan="3">Register and invalid user(that already has an account)</td>
+                <td>1</td>
+                <td>Navigate to login page while being signed out</td>
+                <td>Page displayed</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Enter username and password</td>
+                <td>Entered successfully</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Click login button</td>
+                <td>Message error is displayed. User is already registered</td>
+                <td>Pass</td>
+            </tr>
+
+          <tr>
+                <td rowspan="12">TC-33</td>
+                <td rowspan="12">End to end flow to place an order as a Guest user</td>
+                <td>1</td>
+                <td>Navigate to shop page while being signed out</td>
+                <td>Page displayed</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Add first 2 items in the cart</td>
+                <td>Products are in cart</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Go to cart by clicking the cart button, when the text about the 2 items being in the cart is displayed</td>
+                <td>Cart page is displayed</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Apply the free coupon on cart</td>
+                <td>The coupon is applied, a message is displayed </td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Check the coupon application: total is 0,00lei</td>
+                <td>Cart total is 0,00lei</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Click on 'proceed to checkout' button</td>
+                <td>The checkout page is displayed</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Complete the billing address form with required info: email, fname, lname, address, phone no.</td>
+                <td>the form is completed</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Check the payment options by clicking on them. let the payment to be with cash</td>
+                <td>Both payment boxes work. The order will be placed with cash payment.</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Let a order note with the current time displayed on it.</td>
+                <td>The message is displayed in notes field</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Click on place order button</td>
+                <td>The button is clicked</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Check the order placement by checking page title</td>
+                <td>PAge title after clicking on place order button is Order received.</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Check the order placement in DB, by id</td>
+                <td>The order id found in DB by id.</td>
+                <td>Pass</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <p class ='footer highlight'>This test plane is a work in progress, more TC will be uploaded as test scripts for them will be made.</p>
+    </body>
+</html>
