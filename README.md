@@ -11,7 +11,8 @@ Site documentation:
 - You can find the UI documentation in the document: Esite - documentation.pdf.
 
 Test plan:
-- See the document dedicated to it, including test cases (TC) and steps.
+- See the document dedicated to it, including test cases and steps.
+- ‼ More test scenarios can be seen in the dedicated file (Test Plan Esite - TC). Tests without steps don't have scripts.
 
 Test scripts:
 
@@ -21,7 +22,6 @@ Test scripts:
 **Cart content verification (coupon application)
 ‼ You can find the scripts in the folder WordPress_EcommerceSite_Tested_With_Selenium_Python.
 
-‼ More test scenarios can be seen in the dedicated file (Test Plan Esite - TC). Tests without steps don't have scripts.
 
 !!Please see recorded video with tests run and test reports here + screenshot of tests reports: [Google Drive link to video and SS](https://drive.google.com/drive/folders/1JWQ9gRWdNafi-goXiRRfs6jSi8zCJ9OU?usp=drive_link)
 
