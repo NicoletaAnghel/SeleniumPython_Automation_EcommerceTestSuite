@@ -25,5 +25,5 @@ Test sripts:
 
 !!More test scenarios can be seen in the dedicated file (Test Plan Esite - TC). Tests without steps don't have scripts.
 
-!!Please see recorded videos with tests run and test reports in allure here: [google Driver link to video and SS](https://drive.google.com/drive/folders/1JWQ9gRWdNafi-goXiRRfs6jSi8zCJ9OU?usp=drive_link))
+!!Please see recorded videos with tests run and test reports in allure here: [Google Drive link to video and SS](https://drive.google.com/drive/folders/1JWQ9gRWdNafi-goXiRRfs6jSi8zCJ9OU?usp=drive_link)
 
