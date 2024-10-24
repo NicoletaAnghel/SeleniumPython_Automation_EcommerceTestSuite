@@ -1,29 +1,35 @@
 # AutomatedTesting_SeleniumPython
 
-
-#This project is a suite of tests made for a ecommnerce site, made with WordPress
+This project is a suite of tests made for an eCommerce site, created with WordPress.
 
 Site description:
-// A basic site with woocommerce pluginn and Dokan pluginn(multi-vendor)
-// It a site made for testing purpose only
+
+-A basic site with the WooCommerce plugin and Dokan plugin (multi-vendor).
+-It is a site made for testing purposes only.
 
 Site documentation:
-You can find documentation for UI on document: Esite - documentation.pdf
+- You can find the UI documentation in the document: Esite - documentation.pdf.
 
 Test plan:
-//See the document dedicated to it. With TC and steps.
+- See the document dedicated to it, including test cases (TC) and steps.
 
-Test sripts:
-//There are test scripts for the following scenarious:
-**valid user registration
-**invalid user registration
-**valid user Vendor registration
-**end to end flow - place an order as a Guest user
-**cart content verification (coupons applying)
+Test scripts:
 
-!! You can see the scripts in Wordpress_EcommerceSite_Tested_With_Selenium_Python folder
+- There are test scripts for the following scenarios:
+**Login and registration positive and negative flows
+**End-to-end flow: placing order as guest and making an account after placing first order
+**Cart content verification (coupon application)
+‼ You can find the scripts in the folder WordPress_EcommerceSite_Tested_With_Selenium_Python.
 
-!!More test scenarios can be seen in the dedicated file (Test Plan Esite - TC). Tests without steps don't have scripts.
+‼ More test scenarios can be seen in the dedicated file (Test Plan Esite - TC). Tests without steps don't have scripts.
 
-!!Please see recorded videos with tests run and test reports in allure here: [Google Drive link to video and SS](https://drive.google.com/drive/folders/1JWQ9gRWdNafi-goXiRRfs6jSi8zCJ9OU?usp=drive_link)
+!!Please see recorded video with tests run and test reports here + screenshot of tests reports: [Google Drive link to video and SS](https://drive.google.com/drive/folders/1JWQ9gRWdNafi-goXiRRfs6jSi8zCJ9OU?usp=drive_link)
+
+Helpers used to run tests:
+
+--To set up the environment.
+--To set up the DB connection.
+--To disable prompts (later updated the init_driver function to handle this).
+--To complete forms with random data using the Faker library.
+--To generate random emails and passwords using the Random library.
 
