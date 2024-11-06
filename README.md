@@ -2,9 +2,11 @@
 
 This project is a suite of tests made for an eCommerce site, created with WordPress.
 
-See here the worpress site files: [Esite_wordpress_site_files](https://drive.google.com/file/d/1k9a5gT1_UjquY3-opfxDbe_LZlQbmw88/view?usp=sharing)
+See here the wordpress site files: [Esite_wordpress_site_files](https://drive.google.com/file/d/1k9a5gT1_UjquY3-opfxDbe_LZlQbmw88/view?usp=sharing)
 
 For site configurantion and running tests see: Site configuration and run tests.pdf
+
+
 Site description:
 
 -A basic site with the WooCommerce plugin and Dokan plugin (multi-vendor).
