@@ -8,7 +8,7 @@ import logging as logger
 
 class CartPage(CartPageLocators):
 
-    endpoint = '/c?page_id=8'
+    endpoint = '/cart/'
     def __init__(self, driver):
         self.driver = driver
         self.sl = SeleniumExtended(self.driver)
