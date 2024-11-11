@@ -2,6 +2,8 @@ from Esitetest.source.pages.locators.MyAccountSignedInLocator import MyAccountSi
 from Esitetest.source.selenium_extended import SeleniumExtended
 
 class MyAccountSignedIn(MyAccountSignedInLocator):
+        
+        endpoint = '/my-account/'
         def __init__(self, driver):
             self.driver = driver
             self.sl = SeleniumExtended(self.driver)
