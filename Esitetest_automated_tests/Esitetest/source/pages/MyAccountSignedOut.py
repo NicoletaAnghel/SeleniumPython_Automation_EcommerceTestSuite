@@ -7,7 +7,7 @@ import logging as logger
 
 class MyAccountSignedOut(MyAccountSignedOutLocator):
 
-    endpoint = '/?page_id=10'
+    endpoint = '/my-account/'
     def __init__(self, driver):
         self.driver = driver
         self.sl = SeleniumExtended(self.driver)
