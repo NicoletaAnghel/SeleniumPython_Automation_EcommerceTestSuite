@@ -6,7 +6,7 @@ import logging as logger
 
 class OrderReceivedPage(OrderReceivedPageLocators):
 
-    endpoint = '/?page_id=9'
+    endpoint = '/checkout/order-received/'
     def __init__(self, driver):
         self.driver = driver
         self.sl = SeleniumExtended(self.driver)
